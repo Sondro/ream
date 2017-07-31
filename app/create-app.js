@@ -34,8 +34,10 @@ Vue.mixin({
   }
 })
 
+const REAM_ROOT = 'ream-root'
+
 export default context => {
-  const root = entry.root || 'app'
+  const root = entry.root || REAM_ROOT
 
   const router = entry.router || entry.createRouter(context)
 
@@ -47,7 +49,7 @@ export default context => {
 
   const app = new Vue({
     ...(entry.rootOptions || {}),
-    name: 'ream-root',
+    name: REAM_ROOT,
     store,
     router,
     render: h => {
