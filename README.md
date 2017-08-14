@@ -12,6 +12,8 @@ Server-side rendered Vue.js app should be made easy, since vue-router is well op
 
 [How does this compare to Next.js/Nuxt.js?](https://github.com/ream/ream/issues/23#issuecomment-299425295)
 
+**[Ream 2.0 is currently in development](https://github.com/ream/ream/issues/56), it will support custom renderers like Vue and React**
+
 ## Features
 
 - Server-side rendering with code-split support
